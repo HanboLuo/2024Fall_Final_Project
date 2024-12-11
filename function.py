@@ -40,7 +40,7 @@ def attempt_capture(pokemon, pokeball, turn):
     return shakes == 4
 
 
-def simulate_capture(pokemon, pokeball, num_simulations=10000, default_turn=100):
+def simulate_capture(pokemon, pokeball, num_simulations=2000, default_turn=100):
     turns_to_capture = []
 
     for _ in range(num_simulations):
@@ -58,7 +58,7 @@ def simulate_capture(pokemon, pokeball, num_simulations=10000, default_turn=100)
     return success_rate, avg_turns, turns_to_capture
 
 
-def analyze_min_cost(pokemon, pokeballs, num_simulations=10000, default_turn=100):
+def analyze_min_cost(pokemon, pokeballs, num_simulations=2000, default_turn=100):
     cost_analysis = {}
 
     for pokeball in pokeballs:
@@ -75,13 +75,13 @@ def analyze_min_cost(pokemon, pokeballs, num_simulations=10000, default_turn=100
     return min_cost_ball, cost_analysis
 
 
-def analyze_min_cost_low_hp_status(pokemon, pokeballs, num_simulations=10000, default_turn=100):
+def analyze_min_cost_low_hp_status(pokemon, pokeballs, num_simulations=2000, default_turn=100):
     pokemon.current_hp = pokemon.max_hp // 10  # Set low HP
     pokemon.status = 'paralysis'  # Apply status condition
     return analyze_min_cost(pokemon, pokeballs, num_simulations, default_turn)
 
 
-def analyze_min_time(pokemon, pokeballs, num_simulations=10000, default_turn=100):
+def analyze_min_time(pokemon, pokeballs, num_simulations=2000, default_turn=100):
     time_analysis = {}
 
     for pokeball in pokeballs:
@@ -93,7 +93,7 @@ def analyze_min_time(pokemon, pokeballs, num_simulations=10000, default_turn=100
     return min_time_ball, time_analysis
 
 
-def plot_results(pokemon, pokeballs, num_simulations=10000, default_turn=100):
+def plot_results(pokemon, pokeballs, num_simulations=2000, default_turn=100):
     plt.figure(figsize=(12, 6))
 
     max_turns = default_turn  # Use the same maximum limit as the simulation
