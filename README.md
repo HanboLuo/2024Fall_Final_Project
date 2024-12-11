@@ -1,1 +1,43 @@
-# 2024Fall_projects
+# Pokémon Capture Rate Monte Carlo Simulation
+
+---
+
+## **Team Members:**  
+
+[Jingchen Liu](https://github.com/ljc690106) - NetID: jl288  
+[David Luo](https://github.com/HanboLuo) - NetID: hanbol3  
+
+Github Repository: [[2024Fall_Final_Project]](https://github.com/HanboLuo/2024Fall_Final_Project)  
+
+## Overview:  
+This project aims to develop a Monte Carlo simulation to analyze and optimize **Pokémon capture strategies** in the popular Pokémon video game series. We will simulate various factors that affect **capture rates**, including different **Poké Ball types, Pokémon status conditions, remaining HP, and Pokémon species rarity**. The goal is to determine the most effective capture strategies for different scenarios.
+
+## Hypotheses
+1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
+2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
+3. Pokémon with sleep status will have a higher capture rate than those with paralysis status, regardless of species rarity or Poké Ball type.
+4. The effectiveness of Great Balls compared to standard Poké Balls will decrease as the target Pokémon's HP approaches 100%, with the difference becoming negligible above 75% HP.
+5. For legendary Pokémon, the combination of using an Ultra Ball and inflicting a status condition will result in a capture rate at least 3 times higher than using a standard Poké Ball without a status condition, even at full HP.
+
+## Simulation Design
+Our Monte Carlo simulation will incorporate the following random variables:  
+* Pokémon species (common, rare, legendary) with associated base capture rates  
+* Pokémon's current HP (percentage of max HP)  
+* Pokémon's status condition (none, paralyzed, asleep, etc.)  
+* Poké Ball type (standard, Great Ball, Ultra Ball, etc.)  
+* Used turns
+
+The simulation will run through multiple iterations, simulating capture attempts under various combinations of these factors. We will analyze the aggregate results to determine the most effective strategies for different scenarios.
+
+## Planned Experiments
+1. Compare capture rates across different Poké Ball types for each Pokémon rarity category.
+2. Analyze the impact of status conditions on capture rates for different Pokémon species.
+3. Investigate the relationship between remaining HP and capture success rate.
+4. Determine the most cost-effective Poké Ball choice for different Pokémon types and situations.
+
+## Data Sources
+While our simulation will be based on the mechanics of the Pokémon games, we will use estimated probabilities and formulas derived from various fan-made resources and official game guides.  
+
+Some key resources include:  
+**Bulbapedia** - for base capture rates and formulas: [https://bulbapedia.bulbagarden.net/wiki/Catch_rate](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)  
+**Serebii.net** - for Poké Ball statistics: [https://www.serebii.net/games/capture.shtml](https://www.serebii.net/games/capture.shtml)
