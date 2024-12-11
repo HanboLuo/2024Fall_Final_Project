@@ -17,11 +17,10 @@ Our project aims to develop a Monte Carlo simulation to analyze and optimize **P
 
 
 ## Hypotheses
-1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
+1. Using UltPokémon with sleep status will have a higher capture rate than those ra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
 2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
-3. Pokémon with sleep status will have a higher capture rate than those with paralysis status, regardless of species rarity or Poké Ball type.
-4. The effectiveness of Great Balls compared to standard Poké Balls will decrease as the target Pokémon's HP approaches 100%, with the difference becoming negligible above 75% HP.
-5. For legendary Pokémon, the combination of using an Ultra Ball and inflicting a status condition will result in a capture rate at least 3 times higher than using a standard Poké Ball without a status condition, even at full HP.
+3. The effectiveness of Great Balls compared to standard Poké Balls will decrease as the target Pokémon's HP approaches 100%, with the difference becoming negligible above 75% HP.
+4. For legendary Pokémon, the combination of using an Ultra Ball and inflicting a status condition will result in a capture rate at least 3 times higher than using a standard Poké Ball without a status condition, even at full HP.
 
 ## Simulation Design
 Our Monte Carlo simulation will incorporate the following random variables:  
