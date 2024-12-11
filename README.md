@@ -13,6 +13,9 @@ Pokémon is a popular franchise created by Satoshi Tajiri and Ken Sugimori, firs
 
 Our project aims to develop a Monte Carlo simulation to analyze and optimize **Pokémon capture strategies** in the popular Pokémon video game series. We will simulate various factors that affect **capture rates**, including different **Poké Ball types, Pokémon status conditions, remaining HP, and Pokémon species rarity**. The goal is to determine the most effective capture strategies for different scenarios.
 
+## Rules
+
+
 ## Hypotheses
 1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
 2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
