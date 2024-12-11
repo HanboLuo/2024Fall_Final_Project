@@ -1,6 +1,5 @@
 # Pokémon Capture Rate Monte Carlo Simulation
 
----
 
 ## **Team Members:**  
 
