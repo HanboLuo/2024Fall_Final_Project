@@ -15,8 +15,10 @@ Our project aims to develop a Monte Carlo simulation to analyze and optimize **P
 
 ## Rules
 1.Pokémon battles operate on a turn-based system, where each participant (trainer or wild Pokémon) performs one action per turn
+
 2.Trainers and wild Pokémon execute their chosen actions, one at a time:
 Using a move
+
 3.The battle progresses to the next turn if neither side wins, escapes, or successfully catches the wild Pokémon.
 ## Hypotheses
 1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
