@@ -8,8 +8,10 @@
 
 Github Repository: [[2024Fall_Final_Project]](https://github.com/HanboLuo/2024Fall_Final_Project)  
 
-## Overview:  
-This project aims to develop a Monte Carlo simulation to analyze and optimize **Pokémon capture strategies** in the popular Pokémon video game series. We will simulate various factors that affect **capture rates**, including different **Poké Ball types, Pokémon status conditions, remaining HP, and Pokémon species rarity**. The goal is to determine the most effective capture strategies for different scenarios.
+## Introduction
+Pokémon is a popular franchise created by Satoshi Tajiri and Ken Sugimori, first released in 1996. In the game, players take on the role of a Pokémon Trainer, capturing various wild Pokémon to build a powerful team. Players use Poké Balls to catch Pokémon they encounter in the wild, and the success of the capture depends on the Pokémon’s health, Ball types and other factors.
+
+Our project aims to develop a Monte Carlo simulation to analyze and optimize **Pokémon capture strategies** in the popular Pokémon video game series. We will simulate various factors that affect **capture rates**, including different **Poké Ball types, Pokémon status conditions, remaining HP, and Pokémon species rarity**. The goal is to determine the most effective capture strategies for different scenarios.
 
 ## Hypotheses
 1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
