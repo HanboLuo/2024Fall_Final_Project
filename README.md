@@ -17,7 +17,7 @@ Our project aims to develop a Monte Carlo simulation to analyze and optimize **P
 
 
 ## Hypotheses
-1. Using UltPokémon with paralysis status will have a higher capture rate than those ra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
+1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
 2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
 3. The most cost-effective method of capturing Pokémon is using Great Balls, regardless of the Pokémon's species, HP level, or status condition.
 4. The shortest average time to capture Pokémon is achieved by using Quick Balls, regardless of the Pokémon's species or condition.
