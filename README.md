@@ -14,8 +14,12 @@ Pokémon is a popular franchise created by Satoshi Tajiri and Ken Sugimori, firs
 Our project aims to develop a Monte Carlo simulation to analyze and optimize **Pokémon capture strategies** in the popular Pokémon video game series. We will simulate various factors that affect **capture rates**, including different **Poké Ball types, Pokémon status conditions, remaining HP, and Pokémon species rarity**. The goal is to determine the most effective capture strategies for different scenarios.
 
 ## Rules
+1.Pokémon battles operate on a turn-based system, where each participant (trainer or wild Pokémon) performs one action per turn
 
+2.Trainers and wild Pokémon execute their chosen actions, one at a time:
+Using a move
 
+3.The battle progresses to the next turn if neither side wins, escapes, or successfully catches the wild Pokémon.
 ## Hypotheses
 1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a capture rate twice as high as using standard Poké Balls on the same Pokémon.
 2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
