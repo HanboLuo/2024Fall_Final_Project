@@ -57,6 +57,8 @@ Some key resources include:
 ![image](https://github.com/user-attachments/assets/e4eb28a5-d887-4441-a043-db3960d19f95)
 ![image](https://github.com/user-attachments/assets/84bd1d5b-5429-43a4-9da2-3d3865b1a1bc)
 ![image](https://github.com/user-attachments/assets/5966dc35-d055-4520-b5cc-a516cba43853)
+![image](https://github.com/user-attachments/assets/6ac5bfa7-5b5c-4c87-9bca-032ad284dc71)
+
 
 
 ## Hypotheses 3
