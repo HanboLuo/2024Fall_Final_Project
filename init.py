@@ -13,6 +13,9 @@ class PokeBall:
         self.catch_rate_multiplier = catch_rate_multiplier
         self.price = price
 
+# 20,000 simulations with 50 turns maximum
+ns = 20000 # num_simulations
+dt = 50 # default_turn
 
 # Create Pokémon and Poké Balls based on Serebii's data
 # Real Catch Rate = catch_rate / 255
