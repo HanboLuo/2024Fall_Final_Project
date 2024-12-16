@@ -51,5 +51,7 @@ Some key resources include:
 
 ## Hypotheses 1
 ![image](https://github.com/user-attachments/assets/bf2712e1-d465-4f24-9bc5-93d8f46c9731)
+![image](https://github.com/user-attachments/assets/c3fc96c5-35ba-48e2-8e11-f24aa11f6bc9)
+
 
 
