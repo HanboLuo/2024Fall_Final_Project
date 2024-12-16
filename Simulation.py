@@ -2,6 +2,20 @@ from function import *
 
 
 def main():
+    '''
+    Execute all the main processes.
+
+    First, this function simulates the capture of each Pokemon in the pokemon_list at both full HP and low HP with a paralysis status.
+    It then analyzes and prints the following information for each Pokemon:
+    1. The capture success rate and other related statistics at full HP.
+    2. The capture success rate and other related statistics at low HP with paralysis status.
+    3. The minimum cost Poke Ball for capturing the Pokemon, based on average cost.
+    4. The minimum time Poke Ball for capturing the Pokemon, based on average number of turns.
+
+    The results are shown in detail in 'scatter_plots.ipynb'.
+
+    '''
+
     for pokemon in pokemon_list:
         print(f"\nSimulating capture for {pokemon.name} at full HP:")
         plot_results(pokemon, pokeballs)
