@@ -49,3 +49,7 @@ Some key resources include:
 **Bulbapedia** - for base capture rates and formulas: [https://bulbapedia.bulbagarden.net/wiki/Catch_rate](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)  
 **Serebii.net** - for Poké Ball statistics: [https://www.serebii.net/games/capture.shtml](https://www.serebii.net/games/capture.shtml)
 
+## Hypotheses 1
+![image](https://github.com/user-attachments/assets/bf2712e1-d465-4f24-9bc5-93d8f46c9731)
+
+
