@@ -48,3 +48,23 @@ While our simulation will be based on the mechanics of the Pokémon games, we wi
 Some key resources include:  
 **Bulbapedia** - for base capture rates and formulas: [https://bulbapedia.bulbagarden.net/wiki/Catch_rate](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)  
 **Serebii.net** - for Poké Ball statistics: [https://www.serebii.net/games/capture.shtml](https://www.serebii.net/games/capture.shtml)
+
+## Hypotheses 1
+![image](https://github.com/user-attachments/assets/bf2712e1-d465-4f24-9bc5-93d8f46c9731)
+![image](https://github.com/user-attachments/assets/c3fc96c5-35ba-48e2-8e11-f24aa11f6bc9)
+
+## Hypotheses 2
+![image](https://github.com/user-attachments/assets/e4eb28a5-d887-4441-a043-db3960d19f95)
+![image](https://github.com/user-attachments/assets/84bd1d5b-5429-43a4-9da2-3d3865b1a1bc)
+![image](https://github.com/user-attachments/assets/5966dc35-d055-4520-b5cc-a516cba43853)
+![image](https://github.com/user-attachments/assets/6ac5bfa7-5b5c-4c87-9bca-032ad284dc71)
+
+
+
+## Hypotheses 3
+
+## Hypotheses 4
+
+
+
+
