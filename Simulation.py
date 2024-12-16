@@ -1,5 +1,4 @@
 from function import *
-from init import *
 
 
 def main():
