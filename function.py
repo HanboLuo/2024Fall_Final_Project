@@ -209,7 +209,6 @@ def analyze_min_time(pokemon, pokeballs, num_simulations=ns, default_turn=dt):
             - min_time_ball (str): The name of the Poke Ball with the least time cost.
             - time_analysis (dict): A dictionary with Poke Ball names as keys and average turns to capture as values.
 
-
     '''
     time_analysis = {}
 
@@ -224,7 +223,7 @@ def analyze_min_time(pokemon, pokeballs, num_simulations=ns, default_turn=dt):
 
 def plot_results(pokemon, pokeballs, num_simulations=ns, default_turn=dt):
     '''
-    Helper function to plot the results of the simulations.
+    Helper function to plot the results of the simulations in scatter charts.
 
     Args:
         pokemon (Pokemon): The Pokemon to catch.
@@ -234,6 +233,7 @@ def plot_results(pokemon, pokeballs, num_simulations=ns, default_turn=dt):
 
     Returns:
         None
+
     '''
     plt.figure(figsize=(12, 6))
 
