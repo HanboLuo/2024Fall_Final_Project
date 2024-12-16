@@ -1,7 +1,8 @@
 import random
-
 import matplotlib.pyplot as plt
+
 from init import *
+
 
 def calculate_catch_rate(pokemon, pokeball, turn):
     '''
