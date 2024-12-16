@@ -6,10 +6,11 @@ from init import *
 
 def calculate_catch_rate(pokemon, pokeball, turn):
     '''
-    :param pokemon:
-    :param pokeball:
-    :param turn:
-    :return:
+    :param pokemon: Pokemon to catch.
+    :param pokeball: the Poke Ball being used. 
+    :param turn: The number of the current turn.
+    :return: the calculated catch_rate of this attempt.
+    
     >>> pokemon = pokemon_list[0]   # Mewtwo
     >>> pokeball = pokeballs[3] # Quick Ball
     >>> rate_1, rate_2 = calculate_catch_rate(pokemon, pokeball, 1), calculate_catch_rate(pokemon, pokeball, 2)
