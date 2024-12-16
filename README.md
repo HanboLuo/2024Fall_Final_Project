@@ -93,10 +93,12 @@ Thus, Hypothesis 4 is untrue: Quick Balls are not the most time-efficient option
 
 Make a more powerful and realistic design: 
 1.Escape Rate: A pokemon may escape from a battle after a certain turns;
+
 2.Status condition duration: Some Pokémon may have resistances to certain status conditions, causing the applied status conditions to wear off after a few turns.
 
 Code improvement:
 1.Write doctests and detailed docstrings for each function;
+
 2.Optimize the code logic to reduce redundant calculations in similar situations.
 
 
