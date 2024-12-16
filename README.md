@@ -6,7 +6,7 @@
 [Jingchen Liu](https://github.com/ljc690106) - NetID: jl288  
 [David Luo](https://github.com/HanboLuo) - NetID: hanbol3  
 
-Github Repository: [[2024Fall_Final_Project]](https://github.com/HanboLuo/2024Fall_Final_Project)  
+Github Repository: [2024Fall_Final_Project](https://github.com/HanboLuo/2024Fall_Final_Project)  
 
 ## Introduction
 Pokémon is a popular franchise created by Satoshi Tajiri and Ken Sugimori, first released in 1996. In the game, players take on the role of a Pokémon Trainer, capturing various wild Pokémon to build a powerful team. Players use Poké Balls to catch Pokémon they encounter in the wild, and the success of the capture depends on the Pokémon’s health, Ball types and other factors.
@@ -22,8 +22,8 @@ Using a move
 3.The battle progresses to the next turn if neither side wins, escapes, or successfully catches the wild Pokémon.
 ## Hypotheses
 1. Using Ultra Balls on legendary Pokémon with low HP and a status condition will result in a capture rate twice as high as using standard Poké Balls on the same Pokémon.
-2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
-3. The most cost-effective method of capturing Pokémon is using Great Balls, regardless of the Pokémon's species, HP level, or status condition.
+2. The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.  
+3. The most cost-effective method of capturing Pokémon is using Great Balls, regardless of the Pokémon's species, HP level, or status condition.  
 4. The shortest average time to capture Pokémon is achieved by using Quick Balls, regardless of the Pokémon's species or condition.
 
 ## Simulation Design
@@ -49,40 +49,65 @@ Some key resources include:
 **Bulbapedia** - for base capture rates and formulas: [https://bulbapedia.bulbagarden.net/wiki/Catch_rate](https://bulbapedia.bulbagarden.net/wiki/Catch_rate)  
 **Serebii.net** - for Poké Ball statistics: [https://www.serebii.net/games/capture.shtml](https://www.serebii.net/games/capture.shtml)
 
-## Hypotheses 1
-Using Ultra Balls on legendary Pokémon with low HP and a status condition results in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.
+## Hypothesis 1
+**Using Ultra Balls on legendary Pokémon with low HP and a status condition results in a significantly higher capture rate compared to using standard Poké Balls on the same Pokémon.**
 
-From the graph shown below, when the legendary Pokémon is at full HP and has no status condition, Ultra Balls have a success rate that is much higher than standard Poké Balls, nearly twice as effective as Poké Balls.
+From _Figure 1_, when the legendary Pokémon is at full HP and has no status condition, Ultra Balls have a success rate that is much higher than standard Poké Balls, nearly twice as effective as Poké Balls.
+
 ![image](https://github.com/user-attachments/assets/bf2712e1-d465-4f24-9bc5-93d8f46c9731)
-Similarly, a different graph shows that when the legendary Pokémon has low HP and is affected by paralysis, Ultra Balls also have a significantly higher capture rate compared to Poké Balls.
+<center>
+Figure 1
+</center>
+
+Similarly, _Figure 2_ shows that when the legendary Pokémon has low HP and is affected by paralysis, Ultra Balls also have a significantly higher capture rate compared to Poké Balls.
 ![image](https://github.com/user-attachments/assets/c3fc96c5-35ba-48e2-8e11-f24aa11f6bc9)
-So hypotheses 1 is ture based on our experiment.
+<center>
+Figure 2
+</center>
 
-## Hypotheses 2
-The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
-Compared to rare and common pokemon graphs below, we can see the results.
+Therefore, hypothesis 1 is true based on our experiment.
 
-When the Pokémon is at full HP and has no status condition (see the graph below), the capture rates of both rare and common Pokémon are significantly affected by the type of Poké Ball used, especially when comparing Timer Balls and standard Poké Balls.
+## Hypothesis 2
+**The capture rate for common Pokémon species will be less affected by Poké Ball type compared to rare or legendary Pokémon.
+Compared to rare and common pokemon graphs below, we can see the results.**
+
+When the Pokémon is at full HP and has no status condition as _Figure 3_, the capture rates of both rare and common Pokémon are significantly affected by the type of Poké Ball used, especially when comparing Timer Balls and standard Poké Balls.
 ![image](https://github.com/user-attachments/assets/e4eb28a5-d887-4441-a043-db3960d19f95)
+<center>Figure 3</center>
+
 ![image](https://github.com/user-attachments/assets/5966dc35-d055-4520-b5cc-a516cba43853)
-However, when the pokemon has low HP and paralysis status condition(see the graph below), we can see common pokemon are not affected by poke ball types any more. all kinds of poke balls' success rate is close to 80%. 
+<center>Figure 4</center>
+
+However, when the pokemon has low HP and paralysis status condition as _Figure 5_, we can see common pokemon are not affected by poke ball types any more. All kinds of poke balls' success rate is close to 80%. 
 ![image](https://github.com/user-attachments/assets/84bd1d5b-5429-43a4-9da2-3d3865b1a1bc)
+<center>Figure 5</center>
+
 ![image](https://github.com/user-attachments/assets/6ac5bfa7-5b5c-4c87-9bca-032ad284dc71)
-Thus, our hypotheses are partially supported depending on different conditions. For instance, if the common Pokémon has low HP and is affected by paralysis, the hypotheses can hold true.
+<center>Figure 6</center>
+
+Thus, **hypothesis 2 is partially supported depending on different conditions**. For instance, if the common Pokémon has low HP and is affected by paralysis, the hypothesis can hold true. **For all conditions, we consider it false.**
 
 
-## Hypotheses 3
-The most cost-effective method of capturing Pokémon is using Great Balls, regardless of the Pokémon's species, HP level, or status condition.
+## Hypothesis 3
+**The most cost-effective method of capturing Pokémon is using Great Balls, regardless of the Pokémon's species, HP level, or status condition.**  
 
-Here is our data analysis. As shown in the data, Poké Balls are the most cost-effective option, regardless of the Pokémon species or its condition.
+As shown in _Figure 7_, Poké Balls are the most cost-effective option, regardless of the Pokémon species or its condition.  
+
 ![image](https://github.com/user-attachments/assets/233a36bf-a74a-4e94-bff8-6d239d6c6005)
-So the Hypotheses 3 is unture based on our analysis, the most cost effective method of capturing pokemon would be using standrd poke balls.
-## Hypotheses 4
-The shortest average time to capture Pokémon is achieved by using Quick Balls, regardless of the Pokémon's species or condition.
+<center>Figure 7</center>
 
-Based on our data analysis, as shown in the data below, Ultra Balls require the fewest turns to capture a Pokémon, regardless of the Pokémon's species or condition..
+Thus, **hypothesis 3 is false based on our analysis**, the most cost effective method of capturing pokemon would be using the basic Poke Balls.
+
+## Hypothesis 4
+**The shortest average time to capture Pokémon is achieved by using Quick Balls, regardless of the Pokémon's species or condition.**
+
+As shown in _Figure 8_, Ultra Balls require the fewest turns to capture a Pokémon, regardless of the Pokémon's species or condition.
+
 ![image](https://github.com/user-attachments/assets/c5d08a12-28b7-44fb-a8e3-30f94c9095c1)
-Thus, Hypothesis 4 is untrue: Quick Balls are not the most time-efficient option. Ultra Balls are the best choice if the primary consideration is the shortest time to capture a Pokémon.
+<center>Figure 8</center>
+
+**Thus, Hypothesis 4 is false**: Quick Balls are not the most time-efficient option. Ultra Balls are the best choice if the primary consideration is the shortest time to capture a Pokémon.
+
 ## Discussion
 1. For common species, first mitigate their HP and then just use the most basic Poke Ball! The effects are almost at the same level.
 2. Most of the time, the more expensive ball works better.
@@ -91,7 +116,8 @@ Thus, Hypothesis 4 is untrue: Quick Balls are not the most time-efficient option
 
 ## Limitations and future works
 
-Make a more powerful and realistic design: 
+Make a more powerful and realistic design:  
+
 1.Escape Rate: A pokemon may escape from a battle after a certain turns;
 
 2.Status condition duration: Some Pokémon may have resistances to certain status conditions, causing the applied status conditions to wear off after a few turns.
