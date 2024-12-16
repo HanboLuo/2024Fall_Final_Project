@@ -1,4 +1,15 @@
 class Pokemon:
+    '''
+    Represents a Pokemon with attributes for its name, catch rate, max health points (HP), current HP, and status.
+
+    Attributes:
+        name: The name of the Pokemon.
+        catch_rate: The catch rate of the Pokemon.
+        max_hp: The maximum HP of the Pokemon.
+        current_hp: The current HP of the Pokemon.
+        status: The negative status applied to the Pokemon.
+    '''
+
     def __init__(self, name, catch_rate, max_hp):
         self.name = name
         self.catch_rate = catch_rate
@@ -8,6 +19,15 @@ class Pokemon:
 
 
 class PokeBall:
+    '''
+    Represents a Poke Ball with its catch rate multiplier and price.
+
+    Attributes:
+        name: The name of the Poke Ball.
+        catch_rate_multiplier: The multiplier for the catch rate.
+        price: The price of the Poke Ball.
+    '''
+
     def __init__(self, name, catch_rate_multiplier, price):
         self.name = name
         self.catch_rate_multiplier = catch_rate_multiplier
@@ -17,7 +37,7 @@ class PokeBall:
 ns = 20000 # num_simulations
 dt = 50 # default_turn
 
-# Create Pokémon and Poké Balls based on Serebii's data
+# Create Pokemon and Poke Balls based on Serebii's data
 # Real Catch Rate = catch_rate / 255
 mewtwo = Pokemon("Mewtwo", 3, 200)
 pikachu = Pokemon("Pikachu", 190, 100)
@@ -35,5 +55,5 @@ pokeballs = [
     PokeBall("Timer Ball", 1, 1000),  # Improves with turns passed (up to x4 multiplier)
 ]
 
-# Run simulations and analyze minimum cost for each Pokémon
+# Run simulations and analyze minimum cost for each Pokemon
 pokemon_list = [mewtwo, pikachu, charizard, snorlax, gyarados, gengar, dragonite]
